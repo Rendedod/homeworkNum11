@@ -1,0 +1,162 @@
+﻿<Window x:Class="WPF8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF8"
+        mc:Ignorable="d"
+        Title="second" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="TextBlockStyle1" TargetType="{x:Type TextBlock}">
+            <Setter Property="TextWrapping" Value="NoWrap"/>
+            <Setter Property="TextTrimming" Value="None"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Border Margin="7" Background="#FFF3B883" CornerRadius="20" BorderBrush="Black" >
+                <Border Margin="7" Background="PeachPuff" CornerRadius="20" BorderBrush="Black" >
+                <TextBlock Background="PeachPuff" Margin="7" TextWrapping="Wrap" Foreground="Black" >
+                    А муха тоже вертолет,
+                    Но без коробки передач,
+                    А по стене ползет пельмень,
+                    И все коленки в огурцах,
+                    Он деревянный, как кирпич,
+                    Он волосатый, как трамвай,
+                    А эта песня про любовь
+                    И ты ее не забывай…
+
+                    Он такой же зелёный,
+                    Как и корни старого Клена,
+                    Такой же прозрачный,
+                    Как Меринда или Кока-Кола,
+                    Или как железобетонная стена твоего дома,
+                    Огромный как диагональ твоего монитора.
+
+                    Такой же тихий,
+                    Как и стоны ночных занятий влюбленных,
+                    Такой же здоровый,
+                    Как и дед пьющий водку палёную,
+                    Такой же весёлый,
+                    Как и ноты Ре-Ми-Но-Ра.
+                    Такой же вкусный,
+                    Как и пища в школьной столовой.
+
+                    Такой же опасный,
+                    Как и муха лучше не трогай.
+                    Ведь муха тоже вертолет,
+                    Железная строга,
+                    И даже не понятно,
+                    Что сейчас пельмешка мутит,
+                    А о том что эта песня про любовь,
+                    Забывать не будем.
+
+                    А муха тоже вертолет,
+                    Но без коробки передач,
+                    А по стене ползет пельмень,
+                    И все коленки в огурцах,
+                    Он деревянный, как кирпич,
+                    Он волосатый, как трамвай,
+                    А это песня про любовь
+                    И ты ее не забывай…
+
+                    По деревянной стене из кирпича ползёт пельмешка,
+                    Вареник и макароннинка тоже не стали мешкать,
+                    А просто вежливо,
+                    Позвали кириешку,
+                    И дабы не быть поверженными,
+                    Стали догонять пельмешку.
+
+                    Пока я отмывал коленки от огурцов,
+                    Забыл что эта песня,
+                    Про высокое чувство любовь.
+                    Следом отмывая голову от салата,
+                    Понял что об этом лучше забывать не надо.
+
+                    Потом мы всей компанией,
+                    Прокатимся на волосатом трамвае,
+                    При этом о главном не забывая,
+                    О чем же эта песня?
+                    Вовсе не понятно.
+                    Да и я и сам не понял.
+                    Да и вы поймёте вряд ли.
+
+                    А муха тоже вертолет,
+                    Но без коробки передач,
+                    А по стене ползет пельмень,
+                    И все коленки в огурцах,
+                    Он деревянный, как кирпич,
+                    Он волосатый, как трамвай,
+                    А это песня про любовь
+                    И ты ее не забывай…
+
+                </TextBlock>
+                </Border>
+
+            </Border>
+
+            <Grid Grid.Column="1" >
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+
+                <Rectangle Fill="Red"    Grid.Row="0" Grid.Column="0" />
+                <Rectangle Fill="Blue"   Grid.Row="0" Grid.Column="1" />
+                <Rectangle Fill="Green"  Grid.Row="0" Grid.Column="2" />
+                <Rectangle Fill="Yellow" Grid.Row="0" Grid.Column="3" />
+                <Rectangle Fill="Orange" Grid.Row="0" Grid.Column="4" />
+                <Rectangle Fill="Purple" Grid.Row="0" Grid.Column="5" />
+
+                <Rectangle Fill="Yellow" Grid.Row="1" Grid.Column="0" />
+                <Rectangle Fill="Green"  Grid.Row="1" Grid.Column="1" />
+                <Rectangle Fill="Red"    Grid.Row="1" Grid.Column="2" />
+                <Rectangle Fill="Purple" Grid.Row="1" Grid.Column="3" />
+                <Rectangle Fill="Blue"   Grid.Row="1" Grid.Column="4" />
+                <Rectangle Fill="Orange" Grid.Row="1" Grid.Column="5" />
+
+                <Rectangle Fill="Green"  Grid.Row="2" Grid.Column="0" />
+                <Rectangle Fill="Red"    Grid.Row="2" Grid.Column="1" />
+                <Rectangle Fill="Blue"   Grid.Row="2" Grid.Column="2" />
+                <Rectangle Fill="Yellow" Grid.Row="2" Grid.Column="3" />
+                <Rectangle Fill="Purple" Grid.Row="2" Grid.Column="4" />
+                <Rectangle Fill="Gray"   Grid.Row="2" Grid.Column="5" />
+
+                <Rectangle Fill="Purple" Grid.Row="3" Grid.Column="0" />
+                <Rectangle Fill="Green"  Grid.Row="3" Grid.Column="1" />
+                <Rectangle Fill="Orange" Grid.Row="3" Grid.Column="2" />
+                <Rectangle Fill="Red"    Grid.Row="3" Grid.Column="3" />
+                <Rectangle Fill="Blue"   Grid.Row="3" Grid.Column="4" />
+                <Rectangle Fill="Yellow" Grid.Row="3" Grid.Column="5" />
+
+                <Rectangle Fill="Orange" Grid.Row="4" Grid.Column="0" />
+                <Rectangle Fill="Purple" Grid.Row="4" Grid.Column="1" />
+                <Rectangle Fill="Yellow" Grid.Row="4" Grid.Column="2" />
+                <Rectangle Fill="Green"  Grid.Row="4" Grid.Column="3" />
+                <Rectangle Fill="Red"    Grid.Row="4" Grid.Column="4" />
+                <Rectangle Fill="Blue"   Grid.Row="4" Grid.Column="5" />
+
+            </Grid>
+            <GridSplitter Width="2"/>
+        </Grid>
+    </Grid>
+</Window>
